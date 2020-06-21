@@ -8,9 +8,10 @@ html,body{
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
     color: #fff;
+    
 }
 #header{
-        background-color: rgb(155, 121, 187);
+        /* background-color: rgb(155, 121, 187); */
         padding: 15px;
         /* cause header to be fix and on to p of everything */
         position: fixed;
@@ -20,7 +21,7 @@ html,body{
         z-index: 1000;
 
 }
-#header .container{
+/* #header .container{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -28,13 +29,13 @@ html,body{
 .container{
     max-width: 1100px;
     margin: 0 auto;
-}
-.logo{
+} */
+/* .logo{
     font-weight: 700;
     font-size: 34px;
     color: #fff;
     text-decoration: none;
-}
+} */
 h2{
     font-size: 36px;
 }

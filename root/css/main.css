@@ -1,16 +1,15 @@
-html,body{
+/* html,body{
     /* margin : 0;not space from navbar and others */
     /* margin: 0 auto;
     padding : 0; */
     /*background-image: url(https://images.pexels.com/photos/1293551/pexels-photo-1293551.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);*/
     /*background-image: url("fz background.jpg");*/
-    background-size: cover;
+    /* background-size: cover;
     background-position: center;
     background-attachment: fixed;
     /* min-width:1000px;It is good for changing windows */
-    min-width: 400px;/* it bring scroll baar not break the page*/
+    /* min-width: 384px !important;it bring scroll baar not break the page */ 
   
-  }
 
 
 
@@ -61,7 +60,7 @@ html,body{
     color:#ffa856;
   }
 
-  
+
   .space2{
     letter-spacing: 0.03em;
   }
@@ -191,6 +190,7 @@ html,body{
     /* footer section  */
     footer{
       text-align: center;
+      background-color: black;
     }
    
 
@@ -229,7 +229,7 @@ html,body{
    
   }
   /* making specific for disappearing social phone  */
-  @media only screen and (max-width: 679px){
+  @media only screen and (max-width: 1012px){
     .social{
       display: none;
     }
