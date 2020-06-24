@@ -1,4 +1,4 @@
-/* html,body{
+html,body{
     /* margin : 0;not space from navbar and others */
     /* margin: 0 auto;
     padding : 0; */
@@ -6,10 +6,13 @@
     /*background-image: url("fz background.jpg");*/
     /* background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+    background-attachment: fixed; */
     /* min-width:1000px;It is good for changing windows */
-    /* min-width: 384px !important;it bring scroll baar not break the page */ 
-  
+    width: 96%;
+    margin: 0 auto;
+    min-width: 384px !important;
+    /* it bring scroll baar not break the page */
+  }
 
 
 
@@ -75,7 +78,7 @@
       background-color: #A59C9A;
       opacity: 0.7;
       filter: alpha(opacity=50);
-      width:70%;/* create empty div box give width and hieth in px*/
+      width:70%; /*create empty div box give width and hieth in px */
       height:200px; /* height of box inside middle content*/
   }
   .colormid{
@@ -195,6 +198,7 @@
    
 
     /* media for phone  */
+    
     @media only screen and (max-width: 410px){
       .header{
         font-size: 111px;
@@ -223,7 +227,7 @@
     .navbar  {
         text-align: center;
     } 
-
+  
    
   
    
@@ -234,17 +238,16 @@
       display: none;
     }
    
-
+  
   }
-
+  
   @media only screen and (max-width: 767px){
     .header3{
       display: none;
-
+  
     }
     .header4{
       display: block;
     }
   }
-
 

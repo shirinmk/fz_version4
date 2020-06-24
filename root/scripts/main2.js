@@ -18,7 +18,7 @@ $(document).ready(function(){
 // this is for windows you use scroll baar
 $(window).scroll(function(){
     $('.container_row').each(function(){
-        containerRowTop = $(this).offset().top - 20;
+        containerRowTop = $(this).offset().top - 75;
         if($(document).scrollTop()> containerRowTop){
             thisOfs = $(this).attr('id');
             $('.container_row').removeClass('active');
